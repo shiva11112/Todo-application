@@ -1,0 +1,100 @@
+body{
+    background: url('./images/Todo1.jpg');
+    background-repeat: no-repeat;
+    background-size: 1350px 650px;    
+}
+
+#main-div{
+    background-color: aquamarine;
+    width: 700px;    
+    text-align: center;
+    margin: 50px auto;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+    color:blueviolet;
+    border-radius: 10px;
+    min-height: 350px;
+    opacity: 0.97;
+}
+
+#search-text {
+    margin: 2px;
+    height: 35px;
+    width: 400px;
+    display: inline-block;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: small;
+    
+}
+
+#add-text{
+    margin: 2px;
+    height: 35px;
+    width: 450px;
+    display: inline-block;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: small;
+}
+
+#add-todo-button{
+    margin: 2px;
+    height: 46px;
+    width: 90px;
+    display: inline-block;
+    border: 1px solid aquamarine;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: medium;
+}
+
+#search-text, #add-text, #add-todo-button {
+    background-color: azure;
+    color:cadetblue;
+    font-weight: bold;
+}
+
+#todo-div{
+    width: 537px;
+    background-color: aliceblue;
+    margin:  auto;
+    text-align: left;    
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 5px;
+    color:cadetblue;
+}
+
+#todo-heading, #left-todo-heading{
+    color:darkcyan;       
+}
+
+#todo-heading{    
+    margin-top: 4px;    
+}
+
+#hideCompletedLabel{
+    color:darkcyan;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#top-margin-setter-para{
+    height: 30px;
+    border: 1px red solid;
+    /* text-decoration: line-through; */
+}
+
+#delete-symbol,#tick-mark-symbol:hover{    
+    cursor: pointer;
+    cursor: hand;
+}
+
+#hide-completed-label{
+    color:darkcyan;
+    font-weight: bold;
+}
+
